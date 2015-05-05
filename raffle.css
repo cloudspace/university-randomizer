@@ -1,0 +1,45 @@
+body {
+	background-color: #1e66aa;
+	color:white;
+	text-align:center;
+	padding-top:150px;
+	font-family:futura;
+}
+
+input[type="text"]{
+	height:55px;
+	width:300px;
+	font-size:18pt;
+	line-height:55px;
+	text-align:center;
+	color:#7cb5e9;
+	margin: 0 30px;
+	font-family: futura;
+}
+
+.randomize{
+	margin-top:60px;
+
+}
+.randomize button{
+	height:125px;
+	width:450px;
+	background-color:#7cb5e9;
+	color:white;
+	font-size:42pt;
+	font-family:futura;
+	border:0;
+	outline:0;
+	border-radius:5px;
+	box-shadow:0 10px #14436f;
+}
+.randomize button:active{
+	box-shadow:none;
+	position: relative;
+	top: 10px;
+}
+#response{
+	font-size:32pt;
+	margin-top:70px;
+
+}
