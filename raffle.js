@@ -16,7 +16,10 @@ function pick_number(){
 
 	chosen_numbers.push(val)
 
+	nedry.run();
+
 	document.getElementById('response').innerHTML = val
+
 }
 
 function retry (range, start){
